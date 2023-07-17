@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 400px;
+}
+.container{
+  margin: 10px;
+}
+button{
+  padding: 10px 12px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+input[type=text]{
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 7px 13px;
+  font-size: 15px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li a{
+  color: #000;
+  font-size: 15px;
+  margin-top: 7px;
+}
+li a:hover{
+  color: blue;
+}
+.delete-all-btn{
+  background: #FFF;
+  color: #000;
+  border: 1px solid #000;
+}
+.delete-all-btn:hover{
+  background: #000;
+  color: #fff;
+  border: 1px solid #FFF;
+}
+.save-tab-btn{
+  background: #FFF;
+  color: #000;
+  border: 1px solid #000;
+}
+.save-tab-btn:hover{
+  background: #000;
+  color: #fff;
+  border: 1px solid #FFF;
+}
